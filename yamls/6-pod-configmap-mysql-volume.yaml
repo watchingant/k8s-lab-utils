@@ -14,7 +14,7 @@ spec:
   - image: busybox
     name: busybox
     command: ["/bin/sh"]
-    args: ["-c", "sleep 600"]
+    args: ["-c", "sleep 900"]
     volumeMounts:
     - name: mysql-config
       mountPath: /mydata
